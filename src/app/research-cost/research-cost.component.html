@@ -1,0 +1,45 @@
+<div class="background-container">
+  <div class="background-image"></div>
+  <div class="content">
+
+    <div class="d-flex justify-content-center align-items-center">
+      <button class="secondary_btn tertiary btn-link pirata-one-regular mt-3 mb-2" (click)="onHome()">
+        {{ 'GENERAL.BACK' | translate }}
+      </button>
+    </div>
+
+    <!-- Conteneur pour les boutons -->
+    <div class="d-flex flex-wrap justify-content-center gap-3 mb-2 mt-2">
+      <button *ngFor="let sheet of sheets" (click)="loadSheet(sheet)" class="btn btn-secondary"
+        [ngClass]="{'active': sheet === selectedSheet}">
+        {{ sheet }}
+      </button>
+    </div>
+
+    <!-- Tableau pour afficher les données -->
+    <div class="table-responsive-wrapper mb-3">
+      <div *ngIf="data.length > 0; else noData" class="table-responsive mx-auto">
+        <table class="table table-bordered text-center">
+          <thead class="table-light">
+            <tr>
+              <th *ngFor="let header of data[0]">{{ header }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let row of data.slice(1)">
+              <td *ngFor="let cell of row; let i = index"
+                [ngClass]="{'text-success': i === row.length - 1, 'empty-cell': cell === ''}">
+                {{ cell | numberFormatter }}
+              </td>
+            </tr>
+          </tbody>
+
+        </table>
+      </div>
+    </div>
+
+    <ng-template #noData>
+      <p class="text-muted text-center">Chargement des données ou aucune donnée à afficher.</p>
+    </ng-template>
+  </div>
+</div>

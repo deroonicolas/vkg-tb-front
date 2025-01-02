@@ -1,0 +1,21 @@
+table {
+  background-color: white;
+  opacity: 0.8;
+  margin: 16px;
+  width: 290px;
+}
+
+td {
+  padding: 1px;
+  border: solid black 1px;
+}
+
+.background-image {
+  background-image: url("/assets/images/chest.jpg"); /* chemin de l'image */
+  background-size: cover; /* l'image couvre tout le conteneur */
+  background-position: center; /* centrée */
+  background-repeat: no-repeat; /* l'image ne se répète pas */
+  background-attachment: fixed;
+  min-height: 100vh; /* hauteur de la page entière */
+  width: 100%;
+}

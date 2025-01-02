@@ -1,0 +1,123 @@
+{
+  "GENERAL": {
+    "BACK": "Back"
+  },
+  "HOME": {
+    "GIFTS": "Gifts",
+    "REGULATION": "Regulation",
+    "BOX_NOTATION": "Chest Notation",
+    "CRYPTING": "Crypting"
+  },
+  "LAW": {
+    "TITLE": "VKG Clan Regulation",
+    "SECTION": {
+      "CRYPTING": {
+        "TITLE": "CRYPTING",
+        "NORMS": {
+          "VALHALLA": {
+            "TITLE": "Valhalla Weekly Norms",
+            "G7": "G7: 3,500 points of Common / Rare Crypts AND 5,500 points of Epics / Citadels",
+            "G8": "G8 : 4,500 points of Common / Rare Crypts AND 6,500 points of Epics / Citadels",
+            "G9": "G9 : 5,500 points of Common / Rare Crypts AND 7,500 points of Epics / Citadels"
+          },
+          "ASGARD": {
+            "TITLE": "Asgard Weekly Norms",
+            "G7": "Up to G7 : 15,000 points",
+            "G8": "G8 : 20,000 points",
+            "G9": "G9 : 27,000 points"
+          },
+          "FRONTIER": {
+            "TITLE": "Frontier Weekly Norms",
+            "ALL": "10 chests a day and 70 per week"
+          }
+        }
+      },
+      "CP": {
+        "TITLE": "RULES FOR CP RUN",
+        "PRICE": "Price : 1B CP = 1,3M Silver",
+        "RULES": {
+          "TITLE": "CP Run starts when the defender is online and available. Can only be programmed in COT",
+          "R1": "1. You must have an account in the bank",
+          "R2": "2. Check how much CP you have before starting the run",
+          "R3": "3. Only small teams are allowed (5v1), (4v1), (3v1), (2v1) and (1v1)",
+          "R4": "4. Form a team, and when you're ready, gather and contact KrYxX or Vidar (preferably KrYxX)",
+          "R5": "5. As soon as the run is complete, report in the cs-gs chat",
+          "R6": "6. If you didn’t meet the quotas (NORMS) last week, stay home and keep quiet"
+        },
+        "TROOPS": {
+          "TITLE": "Recommended Troops for CP Run (you can use chlothes, mercenaries, and as many monsters as possible)",
+          "G9": "G9 / S9 : 1,000 Corax – 10,000 Mounted – 20,000 Others",
+          "G8": "G8 / S8 : 1,600 Corax – 12,000 Mounted – 32,000 Others",
+          "G7": "G8 / S8 : 2,700 Corax – 27,000 Mounted – 32,000 Others"
+        },
+        "FINAL": "In between each CP run we have to take a break 20 hours cp run, that's how it works to reset the CP Run otherwise the whole team takes 50%. Who leaves is kicked out"
+      },
+      "GENERAL": {
+        "TITLE": "CLAN'S BASIC RULES",
+        "EXPECTED": {
+          "TITLE": "Here's what is expected",
+          "COMMON_RARE": "Common / Rare Crypts (Points based on Guardian Levels) : See 'Chest notation' section",
+          "EPIC_CITADEL": "Epic Crypts / Citadels (Points based on Guardian Levels) : See 'Chest notation' section",
+          "ANCIENT": {
+            "TITLE": "Ancient Ascent",
+            "VAULT": "Building your vault",
+            "GOLDENBOY": "13 Chests and / or meeting the minimum points required"
+          },
+          "RAGNAROK": "Ragnarok : Clan Chests and Red Books"
+        },
+        "EXEPTION": "However, not always is possible, so if you're going to be absent from the game for a while due to vacation, illness, work, or any other reason, please use the VKG//TIMEOFF channel to let us know in advance. Doing so will exempt you from requirements. Failure to comply with the rules is considered a serious offense, which could even lead to expulsion",
+        "PS": "P.S.: When you follow the rules, you're not just contributing yourselves individually : you're helping the entire clan thrive !"
+      }
+    }
+  },
+  "NOTATION": {
+    "CRYPT": {
+      "COMMON": "Common Crypt Level ",
+      "RARE": "Rare Crypt Level ",
+      "EPIC": "Epic Crypt Level "
+    },
+    "HEROIC": "Heroic Monster",
+    "OTHER": {
+      "BANK": "Bank ",
+      "CHEST": {
+        "WOODEN": "Wooden Chest",
+        "BRONZ": "Bronz Chest",
+        "SILVER": "Silver Chest",
+        "GOLDEN": "Golden Chest",
+        "PRICELESS": "Precious Chest",
+        "MAGICAL": "Magic Chest"
+      },
+      "STRONGHOLD": "Stronghold Level ",
+      "ELVEN_STRONGHOLD": "Elven Citadel Level ",
+      "CURSED_STRONGHOLD": "Cursed Citadel Level ",
+      "MERCENARY": "Mercenary exchange "
+    }
+  },
+  "PRESENT": {
+    "DESCRIPTION": "Gift links are time-limited. If you haven't received your gift, the link has expired. Use the correct link depending on the day of the week",
+    "SUB_DESCRIPTION": "Daily Gift Links are active in your timezone",
+    "DAYS": {
+      "MONDAY": "Monday",
+      "TUESDAY": "Tuesday",
+      "WEDNESDAY": "Wednesday",
+      "THURSDAY": "Thursday",
+      "FRIDAY": "Friday",
+      "SATURDAY": "Saturday",
+      "SUNDAY": "Sunday"
+    }
+  },
+  "CRYPTING": {
+    "TITLE": "Update the crypting table",
+    "FILE": "Import an Excel file",
+    "TABLE": "Generated table",
+    "PERIOD": "Collection period",
+    "FROM": "From",
+    "TO": "to",
+    "XLS": "Week of 12/23/2024 to 12/29/2024"
+  },
+  "DATATABLE": {
+    "UPDATED": "Last updated",
+    "DETAILS": "Detail for ",
+    "CLOSE": "Close"
+  }
+}

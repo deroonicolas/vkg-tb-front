@@ -1,0 +1,17 @@
+.language-switcher button {
+  margin: 0 3px; /* Réduit l'espace horizontal entre les boutons */
+  padding: 0; /* Supprime les espacements internes */
+  border-radius: 10px; /* Coins légèrement arrondis */
+  transition: transform 0.2s ease; /* Animation au survol */
+}
+
+.language-switcher img {
+  width: 48px; /* Taille des drapeaux */
+  height: 24px;
+  opacity: 0.7;
+}
+
+.language-switcher button:hover img {
+  transform: scale(1.1); /* Légère augmentation au survol */
+  opacity: 1;
+}

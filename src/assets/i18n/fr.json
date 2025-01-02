@@ -1,0 +1,123 @@
+{
+  "GENERAL": {
+    "BACK": "Retour"
+  },
+  "HOME": {
+    "GIFTS": "Cadeaux",
+    "REGULATION": "Réglementation",
+    "BOX_NOTATION": "Notation des coffres",
+    "CRYPTING": "Crypting"
+  },
+  "LAW": {
+    "TITLE": "Réglementation du clan VKG",
+    "SECTION": {
+      "CRYPTING": {
+        "TITLE": "CRYPTING",
+        "NORMS": {
+          "VALHALLA": {
+            "TITLE": "Normes hebdomadaires pour Valhalla",
+            "G7": "G7 : 3500 points de Cryptes Communes / Rares ET 5500 points d'Épics / Citadelles",
+            "G8": "G8 : 4500 points de Cryptes Communes / Rares ET 6500 points d'Épics / Citadelles",
+            "G9": "G9 : 5500 points de Cryptes Communes / Rares ET 7500 points d'Épics / Citadelles"
+          },
+          "ASGARD": {
+            "TITLE": "Normes hebdomadaires pour Asgard",
+            "G7": "Jusqu'à G7 : 15,000 points",
+            "G8": "G8 : 20,000 points",
+            "G9": "G9 : 27,000 points"
+          },
+          "FRONTIER": {
+            "TITLE": "Normes hebdomadaires pour Frontier",
+            "ALL": "10 coffres par jour et 70 par semaine"
+          }
+        }
+      },
+      "CP": {
+        "TITLE": "REGLES DES CP RUN",
+        "PRICE": "Prix : 1B CP = 1,3M Argent",
+        "RULES": {
+          "TITLE": "CP Run starts when the defender is online and available. Can only be programmed in COT",
+          "R1": "1. Vous devez avoir un compte bancaire",
+          "R2": "2. Vérifiez combien de CP vous avez avant de commencer la course",
+          "R3": "3. Seules les petites équipes sont autorisées (5v1), (4v1), (3v1), (2v1) et (1v1)",
+          "R4": "4. Formez une équipe et lorsque vous êtes prêt, rassemblez-vous et contactez KrYxX ou Vidar (de préférence KrYxX)",
+          "R5": "5. Dès que la course est terminée, signalez-le dans le chat cs-gs",
+          "R6": "6. Si vous n’avez pas atteint les quotas (NORMES) la semaine dernière, restez chez vous et gardez le silence"
+        },
+        "TROOPS": {
+          "TITLE": "Troupes recommandées pour CP Run (vous pouvez utiliser des vêtements, des mercenaires et autant de monstres que possible)",
+          "G9": "G9 / S9 : 1,000 Corax – 10,000 Montés – 20,000 Autres",
+          "G8": "G8 / S8 : 1,600 Corax – 12,000 Montés – 32,000 Autres",
+          "G7": "G8 / S8 : 2,700 Corax – 27,000 Montés – 32,000 Autres"
+        },
+        "FINAL": "Entre chaque course CP, nous devons faire une pause de 20 heures de course CP, c'est comme ça que ça fonctionne pour réinitialiser la course CP sinon toute l'équipe prend 50%. Qui part est expulsé"
+      },
+      "GENERAL": {
+        "TITLE": "REGLES DE BASE DU CLAN",
+        "EXPECTED": {
+          "TITLE": "Voici ce qui est attendu :",
+          "COMMON_RARE": "Cryptes communes / rares (points basés sur les niveaux des gardes) : voir la section 'Notation des coffres'",
+          "EPIC_CITADEL": "Cryptes épiques / citadelles (points basés sur les niveaux des gardes) : voir la section 'Notation des coffres'",
+          "ANCIENT": {
+            "TITLE": "Essor des ancients",
+            "VAULT": "Construire votre coffre-fort",
+            "GOLDENBOY": "13 coffres et / ou atteindre le minimum de points requis"
+          },
+          "RAGNAROK": "Ragnarok : Coffres de clan et livres rouges"
+        },
+        "EXEPTION": "Cependant, ce n'est pas toujours possible, donc si vous devez vous absenter du jeu pendant un certain temps en raison de vacances, de maladie, de travail ou de toute autre raison, veuillez utiliser le canal VKG//TIMEOFF pour nous en informer à l'avance. Cela vous exemptera des exigences. Le non-respect des règles est considéré comme une infraction grave, qui peut même entraîner l'expulsion",
+        "PS": "P.S. : Lorsque vous suivez les règles, vous ne contribuez pas seulement individuellement : vous aidez le clan tout entier à prospérer !"
+      }
+    }
+  },
+  "NOTATION": {
+    "CRYPT": {
+      "COMMON": "Crypte commune Niveau ",
+      "RARE": "Crypte Rare Niveau ",
+      "EPIC": "Crypte épique Niveau "
+    },
+    "HEROIC": "Monstre Héroïque",
+    "OTHER": {
+      "BANK": "Banque ",
+      "CHEST": {
+        "WOODEN": "Coffre en bois",
+        "BRONZ": "Coffre en bronze",
+        "SILVER": "Coffre en argent",
+        "GOLDEN": "Coffre doré",
+        "PRICELESS": "Coffre inestimable",
+        "MAGICAL": "Coffre magique"
+      },
+      "STRONGHOLD": "Citadelle Niveau ",
+      "ELVEN_STRONGHOLD": "Citadelle Elfique Niveau ",
+      "CURSED_STRONGHOLD": "Citadelle maudite Niveau ",
+      "MERCENARY": "Echange de mercenaires"
+    }
+  },
+  "PRESENT": {
+    "DESCRIPTION": "Les liens cadeaux sont limités dans le temps. Si vous n'avez pas reçu votre cadeau, le lien a expiré. Utilisez le lien approprié en fonction du jour de la semaine",
+    "SUB_DESCRIPTION": "Les liens de cadeaux quotidiens sont actifs dans votre fuseau horaire",
+    "DAYS": {
+      "MONDAY": "Lundi",
+      "TUESDAY": "Mardi",
+      "WEDNESDAY": "Mercredi",
+      "THURSDAY": "Jeudi",
+      "FRIDAY": "Vendredi",
+      "SATURDAY": "Samedi",
+      "SUNDAY": "Dimanche"
+    }
+  },
+  "CRYPTING": {
+    "TITLE": "Mettre à jour la table",
+    "FILE": "Importez un fichier Excel",
+    "TABLE": "Tableau généré",
+    "PERIOD": "Période de collecte",
+    "FROM": "Du",
+    "TO": "au",
+    "XLS": "Semaine du 23/12/2024 to 29/12/2024"
+  },
+  "DATATABLE": {
+    "UPDATED": "Dernière mise à jour",
+    "DETAILS": "Détail pour ",
+    "CLOSE": "Fermer"
+  }
+}

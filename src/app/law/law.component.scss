@@ -1,0 +1,25 @@
+/* Limite la hauteur de l'arrière-plan au composant et évite le débordement */
+.background-image {
+  background-image: url("/assets/images/law.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Utilise la hauteur de l'écran pour éviter le défilement global */
+  width: 100%;
+  padding: 0; /* Réduit le padding pour éviter les débordements internes */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Empêche le défilement global */
+}
+
+/* Zone de défilement localisée pour le texte */
+.scrollable-content {
+  max-height: 450px; /* Limite la hauteur de la zone de texte */
+  overflow-y: auto; /* Défilement interne seulement dans cette zone */
+  opacity: 0.85;
+}
+
+.lead {
+  font-size: medium;
+}

@@ -1,0 +1,10 @@
+.background-image {
+  background-image: url("/assets/images/tb_background.jpg"); /* chemin de l'image */
+  background-size: cover; /* l'image couvre tout le conteneur */
+  background-position: center; /* centrée */
+  background-repeat: no-repeat; /* l'image ne se répète pas */
+  height: 100vh; /* hauteur de la page entière */
+  width: 100%;
+  background-attachment: fixed;
+  image-rendering: crisp-edges;
+}

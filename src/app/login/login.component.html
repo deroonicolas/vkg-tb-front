@@ -1,0 +1,26 @@
+<div class="d-flex flex-column justify-content-center align-items-center vh-100 background-image">
+
+  <!-- Back Button -->
+  <div class="mb-4">
+    <button class="btn secondary_btn btn-link pirata-one-regular" (click)="onHome()">
+      {{ 'GENERAL.BACK' | translate }}
+    </button>
+  </div>
+
+  <!-- Login Section -->
+  <div class="login-container p-4 border rounded shadow-sm bg-light">
+    <h2 class="text-center mb-4">Connection</h2>
+    <form (submit)="login()" action="/" autocomplete="on">
+      <div class="mb-3">
+        <input type="email" class="form-control" placeholder="Username" [(ngModel)]="email" name="username"
+          autocomplete="username" required />
+      </div>
+      <div class="mb-3">
+        <input type="password" class="form-control" placeholder="Password" [(ngModel)]="password" name="password"
+          autocomplete="current-password" required />
+      </div>
+      <button type="submit" class="btn btn-primary w-100">Login</button>
+    </form>
+    <p *ngIf="errorMessage" class="text-danger text-center mt-3">{{ errorMessage }}</p>
+  </div>
+</div>

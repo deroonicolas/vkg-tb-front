@@ -1,0 +1,22 @@
+.background-image {
+  background-image: url("/assets/images/gifts.jpg"); /* chemin de l'image */
+  background-size: cover; /* l'image couvre tout le conteneur */
+  background-position: center; /* centrée */
+  background-repeat: no-repeat; /* l'image ne se répète pas */
+  min-height: 100vh; /* hauteur de la page entière */
+  width: 100%;
+  background-attachment: fixed;
+  image-rendering: crisp-edges;
+}
+
+table {
+  background-color: white;
+  opacity: 0.7;
+  margin: 16px;
+  width: 290px;
+}
+
+td {
+  padding: 5px;
+  border: solid black 1px;
+}

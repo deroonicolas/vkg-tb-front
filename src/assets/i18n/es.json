@@ -1,0 +1,123 @@
+{
+  "GENERAL": {
+    "BACK": "Atrás"
+  },
+  "HOME": {
+    "GIFTS": "Regalos",
+    "REGULATION": "Regulación",
+    "BOX_NOTATION": "Notación de cofres",
+    "CRYPTING": "Crypting"
+  },
+  "LAW": {
+    "TITLE": "Regulaciones del clan VKG",
+    "SECTION": {
+      "CRYPTING": {
+        "TITLE": "CRYPTING",
+        "NORMS": {
+          "VALHALLA": {
+            "TITLE": "Normas hebdomantes para Valhalla",
+            "G7": "G7 : 3500 puntos de Criptas Comunes / Raras Y 5500 puntos de Épicas / Ciudadelas",
+            "G8": "G8 : 4500 puntos de Criptas Comunes / Raras Y 6500 puntos de Épicas / Ciudadelas",
+            "G9": "G9 : 5500 puntos de Criptas Comunes / Raras Y 7500 puntos de Épicas / Ciudadelas"
+          },
+          "ASGARD": {
+            "TITLE": "Normas hebdomantes para Asgard",
+            "G7": "Hasta el G7 : 15,000 puntos",
+            "G8": "G8 : 20,000 puntos",
+            "G9": "G9 : 27,000 puntos"
+          },
+          "FRONTIER": {
+            "TITLE": "Normas hebdomantes para Frontier",
+            "ALL": "10 cofres al día y 70 a la semana"
+          }
+        }
+      },
+      "CP": {
+        "TITLE": "REGLAS PARA LA CARRERA CP",
+        "PRICE": "Precio: 1B CP = 1,3M Plata",
+        "RULES": {
+          "TITLE": "CP Run comienza cuando el defensor está en línea y disponible. Solo se puede programar en COT.",
+          "R1": "1. Debes tener una cuenta en el banco",
+          "R2": "2. Comprueba cuánto CP tienes antes de empezar la carrera",
+          "R3": "3. Solo se permiten equipos pequeños (5vs1), (4vs1), (3vs1), (2vs1) y (1vs1)",
+          "R4": "4. Forma un equipo y, cuando estés listo, reúnete y contacta a KrYxX o Vidar (preferiblemente KrYxX)",
+          "R5": "5. Tan pronto como se complete la ejecución, informe en el chat de cs-gs",
+          "R6": "6. Si no cumpliste con las cuotas (NORMAS) la semana pasada, quédate en casa y guarda silencio"
+        },
+        "TROOPS": {
+          "TITLE": "Tropas recomendadas para CP Run (puedes usar clothes, mercenarios y tantos monstruos como sea posible)",
+          "G9": "G9 / S9: 1,000 Corax - 10,000 Montado - 20,000 Otras",
+          "G8": "G8 / S8 : 1,600 Corax – 12,000 Montado – 32,000 Otras",
+          "G7": "G8 / S8 : 2,700 Corax – 27,000 Montado – 32,000 Otras"
+        },
+        "FINAL": "Entre cada carrera de CP tenemos que tomar un descanso de 20 horas de carrera de CP, no es una regla creada por mí, así es como funciona para reiniciar la carrera de CP, de lo contrario todo el equipo toma el 50%. Quien se va es expulsado"
+      },
+      "GENERAL": {
+        "TITLE": "REGLAS BÁSICAS DEL CLAN",
+        "EXPECTED": {
+          "TITLE": "Esto es lo que se espera",
+          "COMMON_RARE": "Criptas comunes / raras (puntos basados ​​en los niveles del guardián): consulte la sección 'Notación del cofre'",
+          "EPIC_CITADEL": "Criptas épicas / Ciudadelas (puntos basados ​​en los niveles de guardián): consulte la sección 'Notación de cofres'",
+          "ANCIENT": {
+            "TITLE": "Ascenso antiguo",
+            "VAULT": "Construyendo tu bóveda",
+            "GOLDENBOY": "13 Cofres y/o cumplir con los puntos mínimos requeridos"
+          },
+          "RAGNAROK": "Ragnarok : Cofres de clan y libros rojos"
+        },
+        "EXEPTION": "Sin embargo, no siempre es posible, así que si vas a estar ausente del juego por un tiempo debido a vacaciones, enfermedad, trabajo o cualquier otro motivo, por favor utiliza el canal VKG//TIMEOFF para avisarnos con antelación. Al hacerlo, te eximirás de los requisitos. El incumplimiento de las reglas se considera una falta grave, que incluso podría llevar a la expulsión.",
+        "PS": "P.S.: Cuando sigues las reglas, no solo contribuyes individualmente: ¡estás ayudando a que todo el clan prospere!"
+      }
+    }
+  },
+  "NOTATION": {
+    "CRYPT": {
+      "COMMON": "Cripta Común Nivel ",
+      "RARE": "Cripta Rara Nivel ",
+      "EPIC": "Cripta Épica Nivel "
+    },
+    "HEROIC": "Monstruo heroico",
+    "OTHER": {
+      "BANK": "Banco ",
+      "CHEST": {
+        "WOODEN": "Cofre de madera",
+        "BRONZ": "Cofre de bronce",
+        "SILVER": "Cofre plateado",
+        "GOLDEN": "Cofre dorado",
+        "PRICELESS": "Cofre de valor incalculable",
+        "MAGICAL": "Cofre magico"
+      },
+      "STRONGHOLD": "Ciudadela Nivel ",
+      "ELVEN_STRONGHOLD": "Ciudadela Élfica Nivel ",
+      "CURSED_STRONGHOLD": "Ciudadela maldita Nivel ",
+      "MERCENARY": "Intercambio de mercenarios "
+    }
+  },
+  "PRESENT": {
+    "DESCRIPTION": "Los enlaces de regalo están limitados en el tiempo. Si no has recibido tu regalo, el enlace ha caducado. Utilice el enlace apropiado según el día de la semana.",
+    "SUB_DESCRIPTION": "Los enlaces de obsequios diarios están activos en su zona horaria",
+    "DAYS": {
+      "MONDAY": "Lunes",
+      "TUESDAY": "Martes",
+      "WEDNESDAY": "Miércoles",
+      "THURSDAY": "Jueves",
+      "FRIDAY": "Viernes",
+      "SATURDAY": "Sábado",
+      "SUNDAY": "Domingo"
+    }
+  },
+  "CRYPTING": {
+    "TITLE": "Update the crypting table",
+    "FILE": "Import an Excel file",
+    "TABLE": "Generated table",
+    "PERIOD": "Periodo de recogida",
+    "FROM": "Del",
+    "TO": "al",
+    "XLS": "Semana del 23/12/2024 al 29/12/2024"
+  },
+  "DATATABLE": {
+    "UPDATED": "Última actualización",
+    "DETAILS": "Détail para ",
+    "CLOSE": "Cerca"
+  }
+}

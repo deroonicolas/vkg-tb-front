@@ -1,0 +1,86 @@
+.background-container {
+  position: relative;
+}
+
+.background-image {
+  background-image: url("/assets/images/research.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed; /* Fixer l'image au viewport */
+  top: 0;
+  left: 0;
+  height: 100%; /* Couvrir tout le viewport */
+  width: 100%;
+  z-index: -1; /* Assurez-vous que l'image est derrière le contenu */
+}
+
+/* Ajouter un wrapper avec des barres de défilement pour les petits écrans */
+.table-responsive-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto; /* Activer le défilement horizontal */
+}
+
+.table-responsive {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .table-responsive-wrapper {
+    padding: 0 1rem; /* Ajouter un peu d'espace sur les côtés */
+  }
+}
+
+/* Optionnel : Style pour les boutons actifs */
+button.active {
+  text-decoration: underline;
+  font-weight: bold;
+  background-color: #007bff; /* Bleu Bootstrap */
+  color: white;
+  border-color: #0056b3;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  opacity: 0.8;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 3px;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+.text-success {
+  color: green; /* Personnalisez la couleur si nécessaire */
+  font-weight: bold; /* Optionnel : mettre le texte en gras */
+}
+
+@media (max-width: 768px) {
+  .table-responsive {
+    overflow-x: auto; /* Permet le défilement horizontal */
+  }
+
+  table {
+    font-size: 0.85rem; /* Réduit la taille des caractères */
+  }
+
+  th,
+  td {
+    white-space: nowrap; /* Évite que le texte soit coupé ou passe à la ligne */
+  }
+}
+
+.empty-cell {
+  background-color: #999; /* Gris clair */
+  color: #999; /* Couleur du texte */
+}

@@ -1,1 +1,90 @@
-/* You can add global styles to this file, and also import other style files */
+/* Importing Bootstrap SCSS file. */
+@import "bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+}
+
+button {
+  text-decoration: none !important;
+}
+
+.secondary_btn {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  padding-right: 1.6rem;
+  padding-left: 1.6rem;
+  width: 300px;
+  height: 60px;
+  line-height: 60px;
+  text-decoration: none;
+  color: white;
+}
+
+.secondary_btn,
+.btn-link {
+  border-radius: 30px;
+  background-color: dimgrey;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  transition: all 0.5s;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.8 !important;
+  min-width: 270px; /* Largeur minimale */
+  max-width: 270px; /* Largeur maximale */
+}
+
+.tertiary {
+  min-width: 133px; /* Largeur minimale */
+  max-width: 133px; /* Largeur maximale */
+}
+
+.secondary_btn:after {
+  content: ">";
+  position: absolute;
+  opacity: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -20px;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.secondary_btn:hover,
+.btn-link:hover {
+  background-color: black;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-decoration: none;
+  color: white !important;
+}
+
+.primary_btn:hover:after,
+.secondary_btn:hover:after,
+.btn-link {
+  opacity: 1;
+  right: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.pirata-one-regular {
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.domine-400 {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

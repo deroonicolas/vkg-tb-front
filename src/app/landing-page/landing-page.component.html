@@ -1,0 +1,19 @@
+<div class="background-image vh-100 d-flex flex-column">
+
+  <app-header></app-header>
+
+  <!-- Section pour les boutons secondaires -->
+  <div class="d-flex justify-content-center flex-wrap">
+    <button class="secondary_btn btn-link pirata-one-regular m-2" (click)="onLaw()">{{ 'HOME.REGULATION' | translate
+      }}</button>
+    <button class="secondary_btn btn-link pirata-one-regular m-2" (click)="onNotation()">{{ 'HOME.BOX_NOTATION' |
+      translate
+      }}</button>
+    <button class="secondary_btn btn-link pirata-one-regular m-2" (click)="onPresent()">
+      {{ 'HOME.GIFTS' | translate }}
+    </button>
+    <button class="secondary_btn btn-link pirata-one-regular m-2" (click)="onCrypting()">{{ 'HOME.CRYPTING' | translate
+      }}</button>
+    <button class="secondary_btn btn-link pirata-one-regular m-2" (click)="onResearch()">Research Costs</button>
+  </div>
+</div>

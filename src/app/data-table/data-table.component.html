@@ -1,0 +1,77 @@
+<div *ngIf="data.length > 0; else loading">
+  <table border="1" style="width: 100%; border-collapse: collapse;">
+    <thead>
+      <tr>
+        <th class="text-warning-emphasis" colspan="4"></th>
+        <th class="text-warning-emphasis" colspan="4">TOTALS</th>
+        <th class="text-warning-emphasis" colspan="5">Common</th>
+        <th class="text-warning-emphasis" colspan="5">Rare</th>
+        <th class="text-warning-emphasis" colspan="5">Epic</th>
+        <th class="text-warning-emphasis" colspan="5">Strongholds</th>
+        <th class="text-warning-emphasis" colspan="8">Misc</th>
+      </tr>
+      <!-- Affichage dynamique des en-têtes avec noms personnalisés et gestion du tri -->
+      <th class="text-center"></th>
+      <th class="text-center text-warning-emphasis" *ngFor="let column of displayedColumns" (click)="sortData(column)">
+        {{ columnHeaders[column] || column }}
+        <!-- Indicateur de tri ascendant/descendant -->
+        <span *ngIf="sortDirection[column]">↑</span>
+        <span *ngIf="!sortDirection[column]">↓</span>
+      </th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let row of data">
+        <td class="text-center">
+          <i class="fa fa-info-circle text-primary cursor-pointer" style="cursor: pointer;"
+            (click)="openPopup(row)"></i>
+        </td>
+        <td *ngFor="let column of displayedColumns" [ngClass]="{'right-align': isNumber(row[column])}">
+          <span class="cell" [innerHTML]="formatCell(row[column])">
+          </span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Popup pour afficher les détails -->
+<div *ngIf="showPopup" class="popup-overlay">
+  <div class="popup-content">
+    <h3>{{ 'DATATABLE.DETAILS' | translate }} {{ selectedRow.PLAYER }}</h3>
+    <div class="table-container">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th class="text-warning-emphasis" colspan="4"></th>
+            <th class="text-warning-emphasis" colspan="4">TOTALS</th>
+            <th class="text-warning-emphasis" colspan="5">Common</th>
+            <th class="text-warning-emphasis" colspan="5">Rare</th>
+            <th class="text-warning-emphasis" colspan="5">Epic</th>
+            <th class="text-warning-emphasis" colspan="5">Strongholds</th>
+            <th class="text-warning-emphasis" colspan="9">Misc</th>
+          </tr>
+          <tr>
+            <!-- Affichage des colonnes (noms des champs) sur une seule ligne -->
+            <th *ngFor="let key of displayedColumns" class="text-warning-emphasis">
+              {{ columnHeaders[key] || key }}
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <!-- Affichage des valeurs correspondantes de la ligne sélectionnée -->
+            <td *ngFor="let key of displayedColumns" [ngClass]="{'right-align': isNumber(selectedRow[key])}"
+              [innerHTML]="formatCell(selectedRow[key])">
+              {{ selectedRow[key] }}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <button class="btn btn-primary mt-3" (click)="closePopup()">{{ 'DATATABLE.CLOSE' | translate }}</button>
+  </div>
+</div>
+
+<ng-template #loading>
+  <p class="ms-3 text-white">Loading...</p>
+</ng-template>
