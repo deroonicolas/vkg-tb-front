@@ -48,7 +48,7 @@
           "TITLE": "Recommended Troops for CP Run (you can use chlothes, mercenaries, and as many monsters as possible)",
           "G9": "G9 / S9 : 1,000 Corax – 10,000 Mounted – 20,000 Others",
           "G8": "G8 / S8 : 1,600 Corax – 12,000 Mounted – 32,000 Others",
-          "G7": "G8 / S8 : 2,700 Corax – 27,000 Mounted – 32,000 Others"
+          "G7": "G7 / S7 : 2,700 Corax – 27,000 Mounted – 32,000 Others"
         },
         "FINAL": "In between each CP run we have to take a break 20 hours cp run, that's how it works to reset the CP Run otherwise the whole team takes 50%. Who leaves is kicked out"
       },
@@ -113,7 +113,7 @@
     "PERIOD": "Collection period",
     "FROM": "From",
     "TO": "to",
-    "XLS": "Week of 12/23/2024 to 12/29/2024"
+    "XLS": "Previous Week"
   },
   "DATATABLE": {
     "UPDATED": "Last updated",

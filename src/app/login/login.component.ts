@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { TranslatePipe } from '../shared/pipes/translate.pipe';
+import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'app-login',
@@ -17,13 +18,19 @@ export class LoginComponent {
   password: string = '';
   errorMessage: string = '';
 
-  constructor(private authService: AuthService, private router: Router) {}
+  constructor(private authService: AuthService, private router: Router) {
+    const isProduction = window.location.hostname !== 'localhost';
+    if (!isProduction) {
+      this.email = 'crypting@vkg-tb.eu';
+      this.password = 'CryptingVkgTb!$@';
+    }
+  }
 
   login() {
     this.authService.login(this.email, this.password).subscribe({
       next: (response) => {
         if (response.success) {
-          this.authService.setUserRole(response.role, response.username); // Mettre à jour le rôle 
+          this.authService.setUserRole(response.role, response.username); // Mettre à jour le rôle
           this.router.navigateByUrl(''); // Rediriger après connexion
         } else {
           this.errorMessage = response.message;

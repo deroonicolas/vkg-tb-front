@@ -9,7 +9,7 @@
     <img src="/assets/images/flags/es.svg" alt="Español" width="48" height="24">
   </button>
   <div *ngIf="!authService.isLoggedIn">
-    <button type="button" class="btn btn-primary domine-400 ps-2 pe-2" (click)="onLogin()">Login</button>
+    <button type="button" class="btn btn-primary domine-400 ps-2 pe-2" (click)="onLogin()">Admin</button>
   </div>
   <div *ngIf="authService.isLoggedIn">
     <button type="button" class="btn btn-warning domine-400 ps-2 pe-2" (click)="onLogout()">Logout</button>

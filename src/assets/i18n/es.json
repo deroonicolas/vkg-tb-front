@@ -48,7 +48,7 @@
           "TITLE": "Tropas recomendadas para CP Run (puedes usar clothes, mercenarios y tantos monstruos como sea posible)",
           "G9": "G9 / S9: 1,000 Corax - 10,000 Montado - 20,000 Otras",
           "G8": "G8 / S8 : 1,600 Corax – 12,000 Montado – 32,000 Otras",
-          "G7": "G8 / S8 : 2,700 Corax – 27,000 Montado – 32,000 Otras"
+          "G7": "G7 / S7 : 2,700 Corax – 27,000 Montado – 32,000 Otras"
         },
         "FINAL": "Entre cada carrera de CP tenemos que tomar un descanso de 20 horas de carrera de CP, no es una regla creada por mí, así es como funciona para reiniciar la carrera de CP, de lo contrario todo el equipo toma el 50%. Quien se va es expulsado"
       },
@@ -113,7 +113,7 @@
     "PERIOD": "Periodo de recogida",
     "FROM": "Del",
     "TO": "al",
-    "XLS": "Semana del 23/12/2024 al 29/12/2024"
+    "XLS": "Semana anterior"
   },
   "DATATABLE": {
     "UPDATED": "Última actualización",

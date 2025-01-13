@@ -48,7 +48,7 @@
           "TITLE": "Troupes recommandées pour CP Run (vous pouvez utiliser des vêtements, des mercenaires et autant de monstres que possible)",
           "G9": "G9 / S9 : 1,000 Corax – 10,000 Montés – 20,000 Autres",
           "G8": "G8 / S8 : 1,600 Corax – 12,000 Montés – 32,000 Autres",
-          "G7": "G8 / S8 : 2,700 Corax – 27,000 Montés – 32,000 Autres"
+          "G7": "G7 / S7 : 2,700 Corax – 27,000 Montés – 32,000 Autres"
         },
         "FINAL": "Entre chaque course CP, nous devons faire une pause de 20 heures de course CP, c'est comme ça que ça fonctionne pour réinitialiser la course CP sinon toute l'équipe prend 50%. Qui part est expulsé"
       },
@@ -113,7 +113,7 @@
     "PERIOD": "Période de collecte",
     "FROM": "Du",
     "TO": "au",
-    "XLS": "Semaine du 23/12/2024 to 29/12/2024"
+    "XLS": "Semaine précédente"
   },
   "DATATABLE": {
     "UPDATED": "Dernière mise à jour",
