@@ -125,13 +125,11 @@ export class CryptingComponent implements OnInit {
     this.data = correctedData.slice(2);
 
     // Fonction pour nettoyer et convertir les nombres avec des virgules
-    const cleanNumber = (value: any) => {
-      if (typeof value === 'string') {
-        // Retirer les virgules et convertir en nombre
-        const cleanedValue = value.replace(/,/g, '');
-        return !isNaN(parseInt(cleanedValue)) ? parseInt(cleanedValue) : value;
-      }
-      return value;
+    const cleanNumber = (value: any): string => {
+      // Convertir en chaîne pour un nettoyage sûr
+      const strValue = String(value);
+      // Supprimer toutes les virgules et points
+      return strValue.replace(/[,\.]/g, '');
     };
 
     // Traiter les données pour nettoyer les nombres
