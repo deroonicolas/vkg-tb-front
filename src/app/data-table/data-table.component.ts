@@ -83,23 +83,6 @@ export class DataTableComponent implements OnInit {
   }
 
   /**
-   * Replaces all occurrences in the rows based on a specific regex pattern.
-   */
-  replaceAllOccurrences(rows: any[]): any[] {
-    const regex = /Quick March Chest [01]Ancients' Chest/g; // Pattern for matching '0' or '1'
-    const replacementValue = ' / '; // Replacement string
-
-    return rows.map((row) => {
-      Object.keys(row).forEach((key) => {
-        if (typeof row[key] === 'string' && regex.test(row[key])) {
-          row[key] = row[key].replace(regex, replacementValue); // Replace matching pattern
-        }
-      });
-      return row; // Return the modified row
-    });
-  }
-
-  /**
    * Returns a custom header name for columns.
    */
   getCustomHeader(column: string): string {

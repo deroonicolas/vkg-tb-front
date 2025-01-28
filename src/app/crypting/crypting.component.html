@@ -20,17 +20,17 @@
 
     <div *ngIf="authService.userRole === 'admin' || authService.userRole === selectedTable"
       class="ms-5 mt-3 me-5 file admin border rounded p-3 bg-light" style="opacity: 0.7;">
-      <h3 class="text-dark"><u>{{ 'CRYPTING.TITLE' | translate }}</u></h3>
-      <h4 class="text-dark">{{ 'CRYPTING.FILE' | translate }}</h4>
+      <h3 class="text-info"><u>{{ 'CRYPTING.TITLE' | translate }}</u></h3>
+      <h4 class="text-info">{{ 'CRYPTING.FILE' | translate }}</h4>
       <input type="file" class="text-dark" (change)="onFileChange($event)" accept=".xlsx, .xls" />
     </div>
 
-    <h2 class="ms-3 mt-3 text-white domine-400">{{ pageTitle }}</h2>
+    <h2 class="ms-3 mt-3 text-info-emphasis domine-400">{{ pageTitle }}</h2>
 
     <div *ngIf="showComponent">
       <div class="admin" *ngIf="data.length">
         <button class="btn btn-primary m-3" (click)="saveTableToDatabase()">Save generated data</button>
-        <h3 class="text-white domine-400 ms-3">{{ 'CRYPTING.TABLE' | translate }} :</h3>
+        <h3 class="text-info domine-400 ms-3">{{ 'CRYPTING.TABLE' | translate }} :</h3>
         <table border="1">
           <thead>
             <tr>
@@ -47,8 +47,14 @@
     </div>
 
     <!-- Affichage de la date de rapport pour l'onglet sélectionné -->
-    <h4 class="text-white ms-3">{{ 'CRYPTING.PERIOD' | translate }} : {{ 'CRYPTING.FROM' | translate }} 2025-01-20 {{
-      'CRYPTING.TO' | translate }} 2025-01-26</h4>
+    @if (selectedTable === 'valhalla') {
+    <h4 class="text-white ms-3">{{ 'CRYPTING.PERIOD' | translate }} : {{ 'CRYPTING.FROM' | translate }} 2025-01-28 {{
+      'CRYPTING.TO' | translate }} 2025-02-03</h4>
+    } @else {
+    <h4 class="text-white ms-3">{{ 'CRYPTING.PERIOD' | translate }} : {{ 'CRYPTING.FROM' | translate }} 2025-01-27 {{
+      'CRYPTING.TO' | translate }} 2025-02-02</h4>
+    }
+
     <h4 class="text-white ms-3">{{ 'DATATABLE.UPDATED' | translate }} : {{ getFormattedReportDate() }}</h4>
 
     <app-data-table [tableName]="selectedTable"></app-data-table>
