@@ -31,7 +31,7 @@
       <div class="admin" *ngIf="data.length">
         <button class="btn btn-primary m-3" (click)="saveTableToDatabase()">Save generated data</button>
         <h3 class="text-info domine-400 ms-3">{{ 'CRYPTING.TABLE' | translate }} :</h3>
-        <table border="1">
+        <table class="table table-striped" border="1">
           <thead>
             <tr>
               <th *ngFor="let header of headers">{{ header }}</th>

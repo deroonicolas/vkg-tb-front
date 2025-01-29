@@ -1,5 +1,5 @@
 <div *ngIf="data.length > 0; else loading">
-  <table border="1" style="width: 100%; border-collapse: collapse;">
+  <table class="table table-bordered table-striped" style="width: 100%; border-collapse: collapse;">
     <thead>
       <tr>
         <th class="text-info-emphasis text-center" colspan="4"></th>
@@ -40,7 +40,7 @@
   <div class="popup-content">
     <h3>{{ 'DATATABLE.DETAILS' | translate }} {{ selectedRow.PLAYER }}</h3>
     <div class="table-container">
-      <table class="table table-bordered">
+      <table class="table table-bordered table-striped">
         <thead>
           <tr>
             <th class="text-info-emphasis text-center" colspan="3"></th>

@@ -13,12 +13,12 @@ td {
 }
 
 th {
-  cursor: pointer; /* Change le curseur en main pour indiquer que c'est cliquable */
   padding: 5px;
 }
 
 span {
-  // margin-left: 5px;
+  cursor: pointer;
+  padding: 0px;
   color: blue;
 }
 
