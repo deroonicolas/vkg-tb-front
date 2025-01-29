@@ -88,7 +88,7 @@ export class DataTableComponent implements OnInit {
   getCustomHeader(column: string): string {
     const customHeaders: { [key: string]: string } = {
       CcCr: 'Commons &\nRares',
-      CeCi: 'Epics &\nStrongholds',
+      CeCi: 'Epics &\nStrongholds\n ',
       co5: '5',
       co10: '10',
       co15: '15',
