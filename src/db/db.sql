@@ -1,4 +1,5 @@
 CREATE DATABASE IF NOT EXISTS `tb-valhalla-crypting` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `tb-valhalla-crypting`;
 -- Valhhalla
 CREATE TABLE `valhalla` (
   `increment` int(11) NOT NULL,
