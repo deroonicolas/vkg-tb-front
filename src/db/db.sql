@@ -45,8 +45,8 @@ ADD PRIMARY KEY (`increment`, `report_date`);
 ALTER TABLE `valhalla`
 MODIFY `increment` int(11) NOT NULL AUTO_INCREMENT,
   AUTO_INCREMENT = 100;
--- Asgard
-CREATE TABLE `asgard` (
+-- Legacy
+CREATE TABLE `legacy` (
   `increment` int(11) NOT NULL,
   `report_date` datetime NOT NULL,
   `user` varchar(100) NOT NULL,
@@ -85,9 +85,9 @@ CREATE TABLE `asgard` (
   `Fenrir` int(11) DEFAULT NULL,
   `Jormungandr` int(11) DEFAULT NULL
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_general_ci;
-ALTER TABLE `asgard`
+ALTER TABLE `legacy`
 ADD PRIMARY KEY (`increment`, `report_date`);
-ALTER TABLE `asgard`
+ALTER TABLE `legacy`
 MODIFY `increment` int(11) NOT NULL AUTO_INCREMENT,
   AUTO_INCREMENT = 100;
 -- TPA
