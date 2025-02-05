@@ -7,12 +7,12 @@
       }}</button>
   </div>
 
-  <!-- Valhalla, Asgard, Frontier -->
+  <!-- Valhalla, Legacy, Frontier -->
   <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 mt-1">
     <button class="secondary_btn tertiary btn-link pirata-one-regular w-100 w-md-auto"
       (click)="loadTable('valhalla')">Valhalla</button>
     <button class="secondary_btn tertiary btn-link pirata-one-regular w-100 w-md-auto"
-      (click)="loadTable('asgard')">Asgard</button>
+      (click)="loadTable('legacy')">Legacy</button>
     <button class="secondary_btn tertiary btn-link pirata-one-regular w-100 w-md-auto"
       (click)="loadTable('frontier')">Frontier</button>
   </div>
@@ -142,8 +142,8 @@
     </div>
   </div>
 
-  <!-- Asgard -->
-  <div class="d-flex justify-content-center align-items-center asgard" *ngIf="currentTable === 'asgard'">
+  <!-- Legacy -->
+  <div class="d-flex justify-content-center align-items-center legacy" *ngIf="currentTable === 'legacy'">
     <div class="container domine-400">
       <div class="row">
         <!-- Première table dans une colonne -->
