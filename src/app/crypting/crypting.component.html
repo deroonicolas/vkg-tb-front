@@ -13,8 +13,6 @@
         (click)="loadTable('legacy', 'Legacy')">Legacy</button>
       <button class="secondary_btn tertiary btn-link pirata-one-regular w-100 w-md-auto"
         (click)="loadTable('vinland', 'Vinland')">Vinland</button>
-      <button class="secondary_btn tertiary btn-link pirata-one-regular w-100 w-md-auto"
-        (click)="loadTable('tpa', 'TPA')">TPA</button>
     </div>
 
 
@@ -25,7 +23,7 @@
       <input type="file" class="text-dark" (change)="onFileChange($event)" accept=".xlsx, .xls" />
     </div>
 
-    <h2 class="ms-3 mt-3 text-info-emphasis domine-400">{{ pageTitle }}</h2>
+    <h2 class="ms-3 mt-3 text-dark domine-400">{{ pageTitle }}</h2>
 
     <div *ngIf="showComponent">
       <div class="admin" *ngIf="data.length">
