@@ -13,6 +13,8 @@
         (click)="loadTable('legacy', 'Legacy')">Legacy</button>
       <button class="secondary_btn tertiary btn-link pirata-one-regular w-100 w-md-auto"
         (click)="loadTable('vinland', 'Vinland')">Vinland</button>
+      <!--<button class="secondary_btn tertiary btn-link pirata-one-regular w-100 w-md-auto"
+        (click)="iframe()">Analytics</button>-->
     </div>
 
 
@@ -45,12 +47,13 @@
     </div>
 
     <!-- Affichage de la date de rapport pour l'onglet sélectionné -->
+    <!-- @if (selectedTable !== 'iframe') { -->
     @if (selectedTable === 'valhalla') {
-    <h4 class="text-white ms-3">{{ 'CRYPTING.PERIOD' | translate }} : {{ 'CRYPTING.FROM' | translate }} 2025-02-04 {{
-      'CRYPTING.TO' | translate }} 2025-02-10</h4>
+    <h4 class="text-white ms-3">{{ 'CRYPTING.PERIOD' | translate }} : {{ 'CRYPTING.FROM' | translate }} 2025-02-11 {{
+      'CRYPTING.TO' | translate }} 2025-02-17</h4>
     } @else {
-    <h4 class="text-white ms-3">{{ 'CRYPTING.PERIOD' | translate }} : {{ 'CRYPTING.FROM' | translate }} 2025-02-03 {{
-      'CRYPTING.TO' | translate }} 2025-02-09</h4>
+    <h4 class="text-white ms-3">{{ 'CRYPTING.PERIOD' | translate }} : {{ 'CRYPTING.FROM' | translate }} 2025-02-10 {{
+      'CRYPTING.TO' | translate }} 2025-02-16</h4>
     }
 
     <h4 class="text-white ms-3">{{ 'DATATABLE.UPDATED' | translate }} : {{ getFormattedReportDate() }}</h4>
@@ -60,6 +63,14 @@
     <div class="mt-4 d-flex justify-content-center">
       <button class="btn btn-primary mb-3" (click)="downloadReport()">{{ 'CRYPTING.XLS' | translate }}</button>
     </div>
+    <!--} @else { -->
+    <!-- <div class="container-fluid px-3">
+      <iframe src="https://lookerstudio.google.com/embed/reporting/60250cc0-e0fb-49b7-92e2-e96e54be2d1e/page/7IS3D"
+        frameborder="0" class="w-100" style="border: 0; height: 90vh;" allowfullscreen
+        sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+      </iframe>
+    </div> -->
+    <!--} -->
 
   </div>
 </div>

@@ -63,6 +63,11 @@ export class CryptingComponent implements OnInit {
     this.getDataFromDb();
   }
 
+  iframe() {
+    this.selectedTable = 'iframe';
+    this.pageTitle = 'Analytics';
+  }
+
   /**
    * Handles the import of an Excel file.
    * Reads the file, extracts headers, and populates data.
