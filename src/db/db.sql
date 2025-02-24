@@ -135,6 +135,51 @@ ADD PRIMARY KEY (`increment`, `report_date`);
 ALTER TABLE `vinland`
 MODIFY `increment` int(11) NOT NULL AUTO_INCREMENT,
   AUTO_INCREMENT = 100;
+-- Frontier
+CREATE TABLE `frontier` (
+  `increment` int(11) NOT NULL,
+  `report_date` datetime NOT NULL,
+  `user` varchar(100) NOT NULL,
+  `PLAYER` varchar(255) DEFAULT NULL,
+  `Might` int(11) DEFAULT NULL,
+  `AncientPoints` int(11) DEFAULT NULL,
+  `TLevel` int(11) DEFAULT NULL,
+  `Volume` int(11) DEFAULT NULL,
+  `Points` int(11) DEFAULT NULL,
+  `co5` int(11) DEFAULT NULL,
+  `co10` int(11) DEFAULT NULL,
+  `co15` int(11) DEFAULT NULL,
+  `co20` int(11) DEFAULT NULL,
+  `co25` int(11) DEFAULT NULL,
+  `ra10` int(11) DEFAULT NULL,
+  `ra15` int(11) DEFAULT NULL,
+  `ra20` int(11) DEFAULT NULL,
+  `ra25` int(11) DEFAULT NULL,
+  `ra30` int(11) DEFAULT NULL,
+  `ep15` int(11) DEFAULT NULL,
+  `ep20` int(11) DEFAULT NULL,
+  `ep25` int(11) DEFAULT NULL,
+  `ep30` int(11) DEFAULT NULL,
+  `ep35` int(11) DEFAULT NULL,
+  `st10` int(11) DEFAULT NULL,
+  `st15` int(11) DEFAULT NULL,
+  `st20` int(11) DEFAULT NULL,
+  `st25` int(11) DEFAULT NULL,
+  `st30` int(11) DEFAULT NULL,
+  `Bank` int(11) DEFAULT NULL,
+  `Arena` int(11) DEFAULT NULL,
+  `Heroic` int(11) DEFAULT NULL,
+  `Special` int(11) DEFAULT NULL,
+  `AncientChests` int(11) DEFAULT NULL,
+  `QuickMarch` int(11) DEFAULT NULL,
+  `Fenrir` int(11) DEFAULT NULL,
+  `Jormungandr` int(11) DEFAULT NULL
+) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_general_ci;
+ALTER TABLE `frontier`
+ADD PRIMARY KEY (`increment`, `report_date`);
+ALTER TABLE `frontier`
+MODIFY `increment` int(11) NOT NULL AUTO_INCREMENT,
+  AUTO_INCREMENT = 100;
 -- Users
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
