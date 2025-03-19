@@ -19,7 +19,7 @@ Procédure :
 ATTENTION : regardez bien la date CST (Central Time Zone) de mise à jour
 -> Prochaine mise à jour dans 24 heures
 
-Je viens de mettre le crypting à jour sur le site web pour Valhalla, Legacy, Vinland et Frontier
+Je viens de mettre le crypting à jour sur le site web pour Legacy et Frontier : pas de nouvelles de Vinland et en attente pour Valhalla
 A cause d'un TRES GROS problème familial (oui ça continue Encore et encore....), je suis très peu présent mais je mets le crypting à jour quotidiennement
 Procédure :
 1. Ouvrir votre ordinateur ou votre smartphone
@@ -27,7 +27,7 @@ Procédure :
 3. Dans la barre d'adresse (en haut de la fenêtre), inscrivez "tb-vkg. deroonicolas. eu" (sans espace ni guillemet)
 4. Allez dans la section "Crypting" du site web
 ATTENTION : Regardez bien l'heure CST (Central Time Zone) de mise à jour : si votre nom n'apparaît pas, c'est que vous n'avez pas encore crypté (ou fais des citadelles) à l'heure CST indiquée
-/!\ Pour Valhalla, le crypting est du 04 au 10 mars dû au changement de capitale
+/!\ Pour Valhalla, le crypting est du 11 au 17 mars dû au changement de capitale
 => Un lien en bas de page vous permet de consulter le crypting de la semaine précédente
 -> Prochaine mise à jour dans 24 heures
 
