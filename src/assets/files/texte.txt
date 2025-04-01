@@ -23,6 +23,7 @@ ATTENTION : Regardez bien l'heure CST (Central Time Zone) de mise à jour : si v
 
 
 Je viens de mettre le crypting à jour sur le site web pour LEGACY et FRONTIER : pas de nouvelles de Vinland et en attente pour Valhalla
+Pour FRONTIER, les points sont à 0 : je ne comprends pas trop pourquoi : je me rensegnerai...
 A cause d'un TRES GROS problème familial (oui ça continue Encore et encore....), je suis très peu présent mais je mets le crypting à jour quotidiennement
 Procédure :
 1. Ouvrir votre ordinateur ou votre smartphone
