@@ -36,8 +36,8 @@ export class CryptingComponent implements OnInit {
   data: any[] = []; // Stores data rows from the Excel file
   showComponent: boolean = false;
 
-  selectedTable: string = 'valhalla'; // Table par défaut
-  pageTitle: string = 'Valhalla'; // Titre par défaut
+  selectedTable: string = 'legacy'; // Table par défaut
+  pageTitle: string = 'Legacy'; // Titre par défaut
   // Stocker la reportDate pour chaque table
   reportDates: { [tableName: string]: { date: string; user: string } } = {};
   // Popup

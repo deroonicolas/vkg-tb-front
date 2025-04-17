@@ -23,7 +23,7 @@ export class DataTableComponent implements OnInit {
   constructor(private dataService: DataService) {}
 
   ngOnInit(): void {
-    const tableName = 'valhalla'; // Table name to be sent to the API
+    const tableName = 'legacy'; // Table name to be sent to the API
     this.dataService.getData(tableName).subscribe((response) => {
       // Filter data: include rows where Might > 0 or PLAYER includes 'TOTALS'
       this.data = response.filter(

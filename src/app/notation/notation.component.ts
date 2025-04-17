@@ -17,7 +17,7 @@ export class NotationComponent implements OnInit {
   currentTable: string | null = null; // Gère l'état du tableau visible
 
   ngOnInit(): void {
-    this.currentTable = 'valhalla';
+    this.currentTable = 'legacy';
   }
 
   loadTable(tableName: string): void {
