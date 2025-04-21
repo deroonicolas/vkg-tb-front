@@ -61,11 +61,13 @@ ATTENTION : Regardez bien l'heure CST (Central Time Zone) de mise à jour : si v
 Un4ndr3f13d
 Nasser / 1ns4n17y!
 
-C25 : 70 / 60
-E25 : 30 / 30
-R25 : 40 / 40
-R30 : 3
-Ci25 : 34 / 50
+C25 : 0 / 60
+E25 : 0 / 30
+R25 : 0 / 40
+Ci25 :  0 / 50
+R30 : 0
 
+
+21h36 !!!
 
  
