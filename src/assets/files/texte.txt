@@ -49,10 +49,9 @@ ATTENTION : Regardez bien l'heure CST (Central Time Zone) de mise à jour : si v
 Je viens de mettre le crypting à jour sur le site web
 A cause d'un TRES GROS problème familial (oui c'est pas fini...), je suis très peu présent mais je mets le crypting à jour quotidiennement
 Procédure :
-1. Ouvrir votre ordinateur ou votre smartphone
-2. Ouvrir un navigateur (Chrome, Firefox, Edge ou autre)
-3. Dans la barre d'adresse (en haut de la fenêtre), inscrivez "tb-vkg. deroonicolas. eu" (sans espace ni guillemet)
-4. Allez dans la section "Crypting" du site web
+1. Ouvrir un navigateur (Chrome, Firefox, Edge ou autre)
+2. Dans la barre d'adresse (en haut de la fenêtre), inscrivez "tb-vkg. deroonicolas. eu" (sans espace ni guillemet)
+3. Allez dans la section "Crypting" du site web
 ATTENTION : Regardez bien l'heure CST (Central Time Zone) de mise à jour : si votre nom n'apparaît pas, c'est que vous n'avez pas encore crypté (ou fais des citadelles) à l'heure CST indiquée
 => Un lien en bas de page vous permet de consulter le crypting de la semaine précédente
 -> Prochaine mise à jour dans 24 heures
@@ -62,8 +61,8 @@ Un4ndr3f13d
 Nasser / 1ns4n17y!
 
 C25 : 60 / 60
-E25 : 43 / 30
+E25 : 30 / 30
 R25 : 40 / 40
-Ci25 :  33 / 50
+Ci25 :  50 / 50
 
  
