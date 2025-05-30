@@ -62,7 +62,7 @@ DeeAndreea / Un4ndr3f13d
 FRONTIER
 Ildriel / Lw3A4Pm!
 
-C25 : 0 / 60
+C25 : 30 / 60
 E25 : 30 / 30
 E30 : 15 / 15
 R25 : 40 / 40
